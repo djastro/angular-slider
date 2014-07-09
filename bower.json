@@ -1,5 +1,5 @@
 {
-  "name": "angular-slider",
+  "name": "waldron-angular-slider",
   "version": "1.0.0",
   "description": "a slide show control built entirely in AngularJS. This particular control is designed with the following concepts in mind: \n- Don't place elements in the DOM that don't belong there. Typically this will just have the current slide in the DOM except during transitions.\n- Let you control the content. Slide viewers need to work regardless of the content.\n- Give you the flexibility to change content after the viewer is initialized or whenever you want, just the same way you change any content in angular!\n- Use CSS to style *everything* (and I mean everything!)\n- Keep it simple to use. This connects with variables you already have in your controller and it \"just works\".",
   "homepage": "http://www.drewbble.com/angular-slider/",
@@ -14,7 +14,8 @@
   ],
   "keywords": [
     "angular",
-    "slider"
+    "slider",
+    "waldron"
   ],
   "license": "CC BY 4.0",
   "ignore": [
