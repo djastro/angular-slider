@@ -8,7 +8,7 @@
   ],
   "main": [
     "slideviewer.js",
-    "slideview.css",
+    "slideviewer.css",
     "sprint.png",
     "font/*"
   ],
