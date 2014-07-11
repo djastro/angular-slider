@@ -270,6 +270,8 @@ slideViewer.directive('slideSource', ['$compile', '$timeout', '$swipe', '$interv
 
                $scope.processCollectionChange = function (collection) {
                    var dataArray = $scope.getDataArray();
+                   // FFF: Could be improved, but recreate the pins for now
+                   $scope.createPinElements();
                    if (dataArray === null || dataArray.length <= $scope[$scope._index]) {
                        $scope[$scope._index] = 0;
                    }
@@ -284,9 +286,6 @@ slideViewer.directive('slideSource', ['$compile', '$timeout', '$swipe', '$interv
                        
                        // process the index change
                        $scope.processIndexChange(null);
-                   } else {
-                     // FFF: Could be improved, but recreate the pins for now
-                     $scope.createPinElements();
                    }
                };
 
